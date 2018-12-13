@@ -1,0 +1,32 @@
+<html>
+<meta charset="UTF-8">
+<title>命名对照表</title>
+<style>
+table { border-collapse:collapse; }
+th,td {border:1px solid #000000; text-align:center; padding:10px;}
+</style>
+<table id="table">
+<tr><th>字母</th><th>黑桃1</th><th>红桃2</th><th>梅花3</th><th>方块4</th></tr>
+</table>
+<script>
+function $id(s) { return document.getElementById(s); }
+var s = 'abcdefghijklmn';
+var sa = s.split('');
+for(i=0; i<sa.length; i++){
+    var tr = document.createElement('tr');
+    var td = document.createElement('td');
+    td.textContent = sa[i];
+    tr.appendChild(td);
+    for(j=1; j<5; j++){        
+        td = document.createElement('td');
+        var img = document.createElement('img');
+        img.src = sa[i] + j + '.svg';
+        img.alt = sa[i] + j + '.svg';
+        td.appendChild(img);
+        tr.appendChild(td);
+        if((sa[i]+j) == 'n2') break;
+    }
+    $id('table').appendChild(tr);
+}
+</script>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="120" height="170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="120" height="170" rx="10" ry="10" fill="white" stroke="black" />
+<text x="10" y="20" fill="red" font-size="20" font-weight="300" writing-mode="tb" rotate="-90" letter-spacing="5px">JOKER</text>
+<text x="110" y="150" fill="red" font-size="20" font-weight="300" writing-mode="tb" rotate="-90" letter-spacing="5px" transform="rotate(180,110,150)">JOKER</text>
+<text x="20" y="150" fill="black" font-size="6" font-weight="400">湖南衡阳海天鹰软件有限公司</text>
+<text x="20" y="155" fill="black" font-size="3" font-weight="400">HUNAN HENGYANG SEA SKY HAWK SOFTWARE CO. LTD.</text>
+</svg>

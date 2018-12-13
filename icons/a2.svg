@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="120" height="170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="120" height="170" rx="10" ry="10" fill="white" stroke="black" />
+<text x="7" y="20" fill="red" font-size="20" font-weight="300">3</text>
+<!--<path d="M60,60 C 50 50, 40 60, 40 70 C 40 80, 50 90, 60 100 C 70 90, 80 80, 80 70 C 80 60, 70 50, 60 60" fill="red" />-->
+<path d="M60,65 c -10 -10, -20 0, -20 10 c 0 10, 10 20, 20 30 c 10 -10, 20 -20, 20 -30 c 0 -10, -10 -20, -20,-10" fill="red" transform="scale(0.6) translate(40,-30)"/>
+<path d="M60,65 c -10 -10, -20 0, -20 10 c 0 10, 10 20, 20 30 c 10 -10, 20 -20, 20 -30 c 0 -10, -10 -20, -20,-10" fill="red" transform="scale(0.6) translate(40,55)"/>
+<path d="M60,65 c -10 -10, -20 0, -20 10 c 0 10, 10 20, 20 30 c 10 -10, 20 -20, 20 -30 c 0 -10, -10 -20, -20,-10" fill="red" transform="scale(0.6) rotate(180,80,160) "/>
+
+<path d="M60,65 c -10 -10, -20 0, -20 10 c 0 10, 10 20, 20 30 c 10 -10, 20 -20, 20 -30 c 0 -10, -10 -20, -20,-10" fill="red" transform="scale(0.35) translate(-25,5)" />
+<path d="M60,65 c -10 -10, -20 0, -20 10 c 0 10, 10 20, 20 30 c 10 -10, 20 -20, 20 -30 c 0 -10, -10 -20, -20,-10" fill="red" transform="scale(0.35) rotate(180,184,240)" />
+<text x="112" y="150" fill="red" font-size="20" font-weight="300" transform="rotate(180,112,150)">3</text>
+</svg>

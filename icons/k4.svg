@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="120" height="170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="120" height="170" rx="10" ry="10" fill="white" stroke="black" />
+<rect x="20" y="15" width="80" height="140" stroke="black" fill="none" />
+<text x="4" y="20" fill="red" font-size="20" font-weight="300">K</text>
+<path d="M11,25 l-6,8 l6,8 l6,-8 Z" fill="red" />
+<path d="M33,16 l-12,16 l12,16 l12,-16 Z" fill="red" />
+<path d="M87,122 l-12,16 l12,16 l12,-16 Z" fill="red" />
+<text x="115" y="150" fill="red" font-size="20" font-weight="300" transform="rotate(180,115,150)">K</text>
+<path d="M110,127 l-6,8 l6,8 l6,-8 Z" fill="red" />
+</svg>
